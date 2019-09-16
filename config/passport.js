@@ -1,5 +1,5 @@
 var passport=require('passport');
-var Registration=require('../product/Registration');
+var Registration=require('../product/registration');
 var LocalStrategy=require('passport-local').Strategy;
 
 passport.serializeUser((user,done)=>{

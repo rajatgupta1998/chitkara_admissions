@@ -4,7 +4,7 @@ const path = require('path');
 const auth = require('http-auth');
 const mongoose = require('mongoose');
 const passport = require('passport');
-const Registration = mongoose.model('Registration');
+const Registration = mongoose.model('registration');
 //router.use(express.static(__dirname + '/res'));
 /* Call main.css */
 router.get('/res/css/main.css',function(req,res){

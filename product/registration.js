@@ -22,4 +22,4 @@ registrationSchema.methods.validPassword=function(password){
   return bcrypt.compareSync(password,this.password);
   };
   */
-module.exports = mongoose.model('Registration', registrationSchema);
+module.exports = mongoose.model('registration', registrationSchema);
